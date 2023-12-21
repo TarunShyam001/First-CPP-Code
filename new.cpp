@@ -13,11 +13,11 @@ int main()
 
     int h,m,s;
     cout<<setw(70)<<"\n *Enter Current Time :*";
-    cout<<"\n *Hours :*";
+    cout<<"\n Hours :";
     cin>>h;
-    cout<<"\n *Minutes :*";
+    cout<<"\n Minutes :";
     cin>>m;
-    cout<<"\n *Seconds :*";
+    cout<<"\n Seconds :";
     cin>>s;
     if(h<0 || h>23)
     cout<<"\n Wrong Input";
