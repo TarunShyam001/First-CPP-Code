@@ -11,7 +11,6 @@ int main()
     cout<<"\n";
     cout<<"\n It's to make a clock";
 
-    system("color 4A");
     int h,m,s;
     cout<<setw(70)<<"\n *Enter Current Time :*";
     cout<<"\n *Hours :*";
@@ -20,7 +19,6 @@ int main()
     cin>>m;
     cout<<"\n *Seconds :*";
     cin>>s;
-    system("color 4A");
     if(h<0 || h>23)
     cout<<"\n Wrong Input";
     else if(m<0 || m>60)
